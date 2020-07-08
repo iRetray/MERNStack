@@ -1,3 +1,9 @@
 const App = require('./app.js')
+require('./database')
 
-App.listen(4000, () => console.log("Server running on port 4000"));
+async function startServer() {
+    await App.listen(4000);
+    console.log("Server running on port 4000");
+}
+
+startServer();
