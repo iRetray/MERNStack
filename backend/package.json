@@ -1,0 +1,38 @@
+{
+  "name": "mernstack",
+  "version": "1.0.0",
+  "description": "A project for learn concepts about MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "@babel/core src -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iRetray/MERNStack.git"
+  },
+  "keywords": [
+    "mongodb",
+    "react",
+    "nodejs",
+    "express"
+  ],
+  "author": "Retray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iRetray/MERNStack/issues"
+  },
+  "homepage": "https://github.com/iRetray/MERNStack#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
